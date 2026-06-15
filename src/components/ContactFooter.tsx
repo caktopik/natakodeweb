@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { Mail, MapPin, Code2 } from 'lucide-react';
+import { Mail, MapPin } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 export default function ContactFooter() {
@@ -61,9 +61,7 @@ export default function ContactFooter() {
 
         <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
            <div className="flex items-center gap-2">
-            <div className="flex h-8 w-8 items-center justify-center rounded-sm bg-[#0055ff]">
-              <Code2 className="h-5 w-5 text-black" />
-            </div>
+            <img src="/favicon.svg" alt="Natakode Logo" className="h-8 w-8 rounded-sm" />
             <span className="text-xl font-semibold uppercase tracking-tighter text-white">
               Nata<span className="text-[#0055ff]">kode</span>
             </span>

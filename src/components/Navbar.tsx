@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { Code2, Globe } from 'lucide-react';
+import { Globe } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 export default function Navbar() {
@@ -14,9 +14,7 @@ export default function Navbar() {
     >
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6 lg:px-8">
         <div className="flex items-center gap-2">
-          <div className="flex h-8 w-8 items-center justify-center rounded-sm bg-[#0055ff]">
-            <Code2 className="h-5 w-5 text-black" />
-          </div>
+          <img src="/favicon.svg" alt="Natakode Logo" className="h-8 w-8 rounded-sm" />
           <span className="text-xl font-semibold uppercase tracking-tighter">
             Nata<span className="text-[#0055ff]">kode</span>
           </span>
