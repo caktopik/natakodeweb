@@ -59,6 +59,12 @@ export const id = {
       }
     ]
   },
+  notFound: {
+    title: "404",
+    subtitle: "Halaman Tidak Ditemukan",
+    description: "Maaf, halaman yang Anda cari tidak ada atau telah dipindahkan.",
+    backHome: "Kembali ke Beranda"
+  },
   contact: {
     title1: "Mari bangun sesuatu yang",
     titleHighlight: "Luar Biasa.",

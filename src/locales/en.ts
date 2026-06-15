@@ -59,6 +59,12 @@ export const en = {
       }
     ]
   },
+  notFound: {
+    title: "404",
+    subtitle: "Page Not Found",
+    description: "Sorry, the page you are looking for does not exist or has been moved.",
+    backHome: "Back to Home"
+  },
   contact: {
     title1: "Let's build something",
     titleHighlight: "Extraordinary.",
