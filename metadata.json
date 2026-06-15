@@ -1,0 +1,6 @@
+{
+  "name": "Natakode Portfolio",
+  "description": "Portofolio pengembangan web profesional dan aplikasi Android oleh Natakode. Menggunakan React, Next.js, dan Flutter.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
