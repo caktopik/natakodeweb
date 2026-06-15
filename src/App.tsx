@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import Services from './components/Services';
 import Portfolio from './components/Portfolio';
 import ContactFooter from './components/ContactFooter';
+import { Analytics } from '@vercel/analytics/react';
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
         <Portfolio />
       </main>
       <ContactFooter />
+      <Analytics />
     </div>
   );
 }
